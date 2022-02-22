@@ -1,0 +1,60 @@
+*{   
+    
+    margin: 0 ;
+    padding: 0px;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    width: 960px;
+}
+.dangnhap{
+    padding-left: 300px;
+}
+h1{
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 400px;
+    background-color: rgb(179, 243, 222);
+}
+div{
+    width: 45%;
+}
+
+div input{
+    width: 100%;
+}
+div input:hover{
+    background-color: rgb(199, 195, 195);
+}
+div label{
+    font-size: 20px;
+    width: 100%;
+}
+div button{
+    font-size: 17px;
+    border-radius: 10px;
+}
+div button:hover{
+    background-color: rgb(236, 147, 147);
+}input{
+    line-height: 25px;
+}
+aside p{
+    margin-top: 10px;
+    float: right;
+    margin-right:430px;
+    color: white;
+    font-size: 13px;
+}
+aside{
+    margin-top:5px;
+    border-top: 1px solid blue;
+    line-height: 25px;
+    background-color:blue ;
+    width: 950px;
+}

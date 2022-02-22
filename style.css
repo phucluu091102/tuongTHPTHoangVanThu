@@ -1,0 +1,166 @@
+*{
+
+    margin:0;
+    padding:0px;
+    list-style: none;
+}
+header{
+    width:960px;
+    height:180px;
+    background-image: url(http://thpthoangvanthu.giaoductayninh.vn/SiteFolders/thpthoangvanthu/1428/Banner/thpthoangvanthu.png);
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+}
+nav{
+    height:35px;
+    width:960px;
+    background-color: rgb(56, 56, 243);
+}
+aside .h1 input{
+   
+    width: 174px;
+}
+nav ul li a{
+    float: left;
+    line-height: 35px;;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+nav .menu1 ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.container article{
+    float: right;
+    margin-right:20px;
+    margin-top:10px;
+}
+article p {
+    background-color: rgb(34, 34, 243);
+    line-height: 30px;
+    font-size: 17px;
+    color: white;
+    padding-left:10px;
+    margin-top:5px;
+}
+.h1 input{
+    line-height: 30px;
+}
+.cainon{
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+footer p{
+    margin-top: 10px;
+    float: right;
+    margin-right:430px;
+    color: white;
+    font-size: 14px;
+}
+.container footer{
+    margin-top:5px;
+    border-top: 1px solid blue;
+    line-height: 25px;
+    background-color:blue ;
+}
+.container aside .h2 li a{
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid blue;   
+}
+aside .h1 button{
+    font-size: 17px;
+    border-top-right-radius: 8px;
+    background-color: red;
+}
+aside .h1{
+    background-color: rgb(38, 38, 252);
+    border-top-right-radius: 9px;
+}
+
+.container>aside{
+    background-color: rgb(145, 145, 250);
+    width:255px;
+    margin-top: 10px;
+    min-height: 10px;
+    border-top-right-radius:15px ;
+}
+.search {
+    float: right;
+}
+
+.container .vmenu {
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    border-radius: 0px;
+    box-shadow: 0 0 2px;
+    width:26%;
+    background-color: rgb(42, 42, 241);
+    
+}
+.vmenu a{
+    background: url('icon1.PNG') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted rgb(24, 50, 196) ;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px 5px 8px 45px;
+    padding-top: 5px;
+    color: white;
+}
+.vmenu li a{
+    padding-left: 50px;
+}
+.vmenu a:hover{
+    background: url('icon1.PNG') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.menu1>ul>li{
+    display: inline-block;
+    position: relative;
+ }
+ .menu1>ul>li a{
+    display: block; 
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color:white;
+    padding:0 10px;
+     line-height: 40px;
+ 
+ }
+ .menu1>ul>li>a:hover{
+     text-decoration: underline;
+     color:yellow;
+ }
+ .menu1 > ul{
+     padding:0px;
+     margin:0px;
+     list-style: none;
+     background-color: orangered;
+     border-radius: 5px;
+     text-align: center;
+ }
+ input{
+     width: 60%;
+ }
+.hinhanh{
+    width: 450px;
+    height: 200px;
+    margin-top: 15px;
+}
+ 
+ 
+
